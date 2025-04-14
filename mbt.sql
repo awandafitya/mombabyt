@@ -40,10 +40,10 @@ CREATE TABLE `pengingat` (
 --
 
 INSERT INTO `pengingat` (`id`, `email`, `date`, `judul`, `deskripsi`) VALUES
-(1, 'fityaawanda@gmail.com', '2025-04-15', 'Jadwal Imunisasi	', 'Datang ke posyandu pukul 08.00'),
-(2, 'arimbi@gmail.com', '2025-05-10', 'Jadwal Melahirkan', 'di RSA kabupaten Bojonegoro'),
-(3, 'eva@gmail.com', '2025-06-06', 'Tindik', 'di RSUD Dr. Sosodoro'),
-(4, 'fityaawanda@gmail.com', '2025-05-01', 'kesaktian pancasila', 'libur');
+(1, 'admin@gmail.com', '2025-04-15', 'Jadwal Imunisasi	', 'Datang ke posyandu pukul 08.00'),
+(2, 'admin3@gmail.com', '2025-05-10', 'Jadwal Melahirkan', 'di RSA kabupaten Bojonegoro'),
+(3, 'admin2@gmail.com', '2025-06-06', 'Tindik', 'di RSUD Dr. Sosodoro'),
+(4, 'admin@gmail.com', '2025-05-01', 'kesaktian pancasila', 'libur');
 
 -- --------------------------------------------------------
 
@@ -62,9 +62,9 @@ CREATE TABLE `profile` (
 --
 
 INSERT INTO `profile` (`nama`, `email`, `password`) VALUES
-('Arimbi Puspitasari', 'arimbi@gmail.com', '0'),
-('Evva', 'eva@gmail.com', '1'),
-('Awanda fitya Zahra', 'fityaawanda@gmail.com', '081231');
+('Admin 3', 'admin3@gmail.com', '0'),
+('Admin 2', 'admin2@gmail.com', '1'),
+('Admin 1', 'admin@gmail.com', '0');
 
 --
 -- Indexes for dumped tables
