@@ -138,8 +138,8 @@ if (!isset($_SESSION['email'])) {
         </div>
 
         <div class="option" onclick="selectOption(this, null)">
-            <img src="pregnancytracking.png" alt="Pregnancy Tracking">
-            Pregnancy Tracking
+            <img src="medicalconsultation.png" alt="Pregnancy Tracking">
+            Medical Consultation
         </div>
         <div class="option" onclick="selectOption(this, null)">
             <img src="childgrowth.png" alt="Child Growth">
